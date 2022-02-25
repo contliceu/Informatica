@@ -4,6 +4,6 @@ using namespace std;
 
 
 int main() {
-	printf("Hello mata");
+	printf("Hello mata");ads
 	return 0;
 }
