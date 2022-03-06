@@ -29,7 +29,7 @@ int nr_sa(int a[100][100], int n, int m) {
     }
     return count;
 }
-int mainschimba1() {
+int mainschimbaa1() {
     int n = 2, m = 6;
     int a[100][100];
     for (int i = 0; i < n; i++)
