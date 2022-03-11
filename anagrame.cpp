@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int st[4], n = 3;
+int litere[100];
 
 void init(int k)
 {
@@ -20,7 +20,6 @@ int succesor(int k)
     return 0;
 }
 
-//modif aici
 int valid(int k)
 {
     if (k == 2 && st[k] != 3)
@@ -37,31 +36,9 @@ int solutie(int k)
     return k == n;
 }
 
-//modif aici
 void tipar()
 {
-    for (int i = 1; i <= n; i++) {
-        switch (st[i]) {
-        case 1:
-            cout << "Rosu ";
-            break;
-        case 2:
-            cout << "Verde ";
-            break;
-        case 3:
-            cout << "Galben ";
-            break;
-        case 4:
-            cout << "Albastru ";
-            break;
-        case 5:
-            cout << "Violet ";
-            break;
-        default:
-            cout << "Code brok: "<< st[i];
-        }
-    }
-    printf_s("\n");
+
 }
 void bt(int k)
 {
@@ -75,9 +52,17 @@ void bt(int k)
 
 }
 
-int maingdfgdfg()
+int mainhgfhgf()
 {
-    bt(1);
+    int n;
+    char cuv[n+1];
+    cin>>n>>cuv;
+    for(int i = 0; i < n; i++){
+        if(strchr(litere,))
+    }
+    bt();
     cin.ignore(256, '\n');
     return 0;
+}
+int main(){
 }
