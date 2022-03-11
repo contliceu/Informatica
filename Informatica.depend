@@ -1,0 +1,93 @@
+# depslib dependency file v1.0
+1646654627 source:c:\users\elev\desktop\repos\informatica\030120221.cpp
+	<fstream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\2810.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\3112021.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\af_cifracontrol.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\af_ciframin.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\af_numcifre.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\af_oglindit.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\af_sumcifre.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\af_sumdiv.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2011mi0.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2011mi1.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2018mi0.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament01.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament02.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament03.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament04.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament05.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament06.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament07.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament08.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament09.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament10.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament11.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\bac2021_antrenament12.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\ci_20_10_2021.cpp
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\divideetimpera.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\hanoi.cpp
+	<iostream>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\sir2021test7.cpp
+	<iostream>
+	<string.h>
+
+1646654627 source:c:\users\elev\desktop\repos\informatica\source.cpp
+	<iostream>
+	<string.h>
+
+1646655879 source:c:\users\elev\desktop\repos\informatica\dame.cpp
+	<iostream>
+	<cmath>
+
