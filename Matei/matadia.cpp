@@ -6,7 +6,7 @@ int main(){
     ifstream in("inmat.txt");
     int n,gsum,gmax = -1,g,mxn,izn = 0,i;
     in>>n;
-    int v[n][n],mx[n],iz[n];
+    int v[n][n],mx[n]{},iz[n]{};
     for(i = 0; i < n; i++){
         g = 0;
         for(int j = 0; j < n; j++){
@@ -30,7 +30,7 @@ int main(){
     }
     cout<<"Noduri cu grad maxim: ";
     for(i = 0; i <mxn; i++)
-        cout<<(i ? ", ": "")<<mx[i];
+        cout<<(i ? ", ": "")<<mx[i]+1;
     cout<<"\nNoduri izolate: ";
     for(i = 0; i <izn; i++)
         cout<<(i ? ", ": "")<<iz[i];
