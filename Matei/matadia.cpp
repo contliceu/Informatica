@@ -30,9 +30,9 @@ int main(){
     }
     cout<<"Noduri cu grad maxim: ";
     for(i = 0; i <mxn; i++)
-        cout<<(i ? ", ": "")<<mx[i];
+        cout<<(i ? ", ": "")<<mx[i]+1;
     cout<<"\nNoduri izolate: ";
     for(i = 0; i <izn; i++)
-        cout<<(i ? ", ": "")<<iz[i];
+        cout<<(i ? ", ": "")<<iz[i]+1;
     cout<<"\nNumar muchii: "<<gsum/2;
 }
