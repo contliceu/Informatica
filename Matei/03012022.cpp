@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-int main87568567() {
+int main() {
 	char sir[100];
 	int j, i,n,m,sirN[100];
 	cin >> n;
