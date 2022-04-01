@@ -5,8 +5,9 @@ using namespace std;
 int main(){
     ifstream in("inmat.txt");
     int n,gsum,gmax = -1,g,mxn,izn = 0,i;
+    bool eulerian = 1;
     in>>n;
-    int v[n][n],mx[n],iz[n];
+    int v[n][n],mx[n]{},iz[n]{};
     for(i = 0; i < n; i++){
         g = 0;
         for(int j = 0; j < n; j++){
@@ -20,12 +21,16 @@ int main(){
         gsum += g;
         if(!g)
             iz[izn++] = i;
-        else if(g > gmax){
-            gmax = g;
-            mx[0] = i;
-            mxn = 1;
-        }else if(g == gmax)
-            mx[mxn++] = i;
+        else{
+            if(eulerian)
+                eulerian = !(g%2);
+            if(g > gmax){
+                gmax = g;
+                mx[0] = i;
+                mxn = 1;
+            }else if(g == gmax)
+                mx[mxn++] = i;
+        }
 
     }
     cout<<"Noduri cu grad maxim: ";
@@ -35,4 +40,5 @@ int main(){
     for(i = 0; i <izn; i++)
         cout<<(i ? ", ": "")<<iz[i]+1;
     cout<<"\nNumar muchii: "<<gsum/2;
+    cout<<"\nEulerian: "<<(eulerian ? "Da" : "Nu");
 }
